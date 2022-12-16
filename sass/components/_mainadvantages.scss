@@ -1,0 +1,38 @@
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.items-subject {
+  width: 270px;
+  height: 246px;
+}
+.thumb {
+  padding: 25px 100px;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.thumb-soc-icons {
+  height: 70px;
+}
+.advantages-title {
+  margin-bottom: 10px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-header-color);
+}
+.advantages-text {
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 71;
+
+  letter-spacing: 0.03em;
+  color: var(--third-header-color);
+}

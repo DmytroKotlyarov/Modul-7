@@ -59,9 +59,7 @@ a {
   list-style: none;
 } */
 
-
 /* --------Header-------- */
-
 
 /* .header-nav {
   display: flex;
@@ -188,11 +186,9 @@ span.header-logo {
   border-radius: 2px;
 } */
 
-
 /* --------Overlay модальное окно-------- */
 
-
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -404,14 +400,11 @@ label.modal-politic-label {
 .input:hover + .input-svg, input:focus + .input-svg { 
   fill: #2196F3; 
   outline: none;
-} 
-
-
+}  */
 
 /* --------Main-hero-------- */
 
-
-.hero {
+/* .hero {
   max-width: 1600px;
   max-height: 600px;
   padding: 200px 0px;
@@ -459,13 +452,11 @@ label.modal-politic-label {
 }
 .main-button {
   background-color: var(--accent-color);
-}
-
+} */
 
 /* --------Main advantages переваги--------- */
 
-
-.section {
+/* .section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -502,13 +493,11 @@ label.modal-politic-label {
 
   letter-spacing: 0.03em;
   color: var(--third-header-color);
-}
-
+} */
 
 /* --------Main directions приклади робіт--------- */
 
-
-.directions {
+/* .directions {
   padding-bottom: 94px;
 }
 .directions-title {
@@ -547,13 +536,11 @@ label.modal-politic-label {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
-}
-
+} */
 
 /* --------Main team section члени команди---------- */
 
-
-.items-img {
+/* .items-img {
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -626,13 +613,11 @@ label.modal-politic-label {
 .team-soc-list .team-soc-link:focus {
   fill: white;
   background-color: #2196f3;
-}
-
+} */
 
 /* --------Main company section постійні кліенти---------- */
 
-
-.company {
+/* .company {
   margin-bottom: 50px;
   font-style: normal;
   font-weight: 700;
@@ -677,13 +662,11 @@ label.modal-politic-label {
   fill: #2196f3;
   border-radius: 4px;
   border-color: #2196f3;
-}
-
+} */
 
 /* --------Footer---------- */
 
-
-.footer {
+/* .footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #2f303a;
@@ -827,9 +810,9 @@ span.footer-logo {
   background: #2196f3;
   border-radius: 4px;
   border: transparent;
-}
+} */
 
-.footer-soc-icons {
+/* .footer-soc-icons {
   fill: var(--second-header-color);
 }
 
@@ -841,11 +824,9 @@ span.footer-logo {
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
-}
-
+} */
 
 /* --------Portfolio-------- */
-
 
 .portfolio-header {
   border-bottom: 1px solid #757575;
