@@ -1,7 +1,4 @@
-body {
-  font-family: "Roboto" sans-serif;
-}
-mg {
+img {
   display: block;
 }
 h1,
@@ -20,13 +17,7 @@ ul {
 button {
   cursor: pointer;
 }
-body,
-footer {
-  font-family: "Roboto", sans-serif;
-}
-a {
-  text-decoration: none;
-}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -39,14 +30,9 @@ a {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 .container {
   width: 1200px;
   padding: 15px 0;
   margin: 0 auto;
-}
-.link {
-  text-decoration: none;
-}
-.list {
-  list-style: none;
 }

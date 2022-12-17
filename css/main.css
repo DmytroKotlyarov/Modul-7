@@ -1,8 +1,4 @@
-body {
-  font-family: "Roboto" sans-serif;
-}
-
-mg {
+img {
   display: block;
 }
 
@@ -25,15 +21,6 @@ button {
   cursor: pointer;
 }
 
-body,
-footer {
-  font-family: "Roboto", sans-serif;
-}
-
-a {
-  text-decoration: none;
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -54,14 +41,6 @@ a {
   margin: 0 auto;
 }
 
-.link {
-  text-decoration: none;
-}
-
-.list {
-  list-style: none;
-}
-
 :root {
   --primary-header-color: #212121;
   --second-header-color: #ffffff;
@@ -69,6 +48,23 @@ a {
   --pimary-link-color: #ffffff;
   --accent-color: #2196f3;
   --advantages-color: #f5f4fa;
+}
+
+body,
+footer {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
 }
 
 .header-nav {
