@@ -17,23 +17,35 @@
   cursor: pointer;
   border: transparent;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--second-header-color);
+    background-color: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
 }
 .portfolio-control {
   margin-left: 8px;
+  &:first-child {
+    margin-left: 0;
+  }
 }
-.portfolio-control:first-child {
-  margin-left: 0;
-}
-.btn-button:hover,
-.btn-button:focus {
-  color: var(--second-header-color);
-  background-color: var(--accent-color);
-}
-.btn-button:hover,
-.btn-button:focus {
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+// .portfolio-control:first-child {
+//   margin-left: 0;
+// }
+// .btn-button:hover,
+// .btn-button:focus {
+//   color: var(--second-header-color);
+//   background-color: var(--accent-color);
+//   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+//     0px 2px 2px rgba(0, 0, 0, 0.12);
+// }
+// .btn-button:hover,
+// .btn-button:focus {
+//   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+//     0px 2px 2px rgba(0, 0, 0, 0.12);
+// }
 
 .btn-list {
   margin-left: auto;
@@ -49,10 +61,13 @@
   margin-right: 27px;
   list-style: none;
   border: 1px solid #eeeeee;
+  & li:nth-child(3n) {
+    margin-right: 0;
+  }
 }
-.list-portfolio li:nth-child(3n) {
-  margin-right: 0;
-}
+// .list-portfolio li:nth-child(3n) {
+//   margin-right: 0;
+// }
 .portfolio-title {
   margin-top: 20px;
   margin-left: 24px;

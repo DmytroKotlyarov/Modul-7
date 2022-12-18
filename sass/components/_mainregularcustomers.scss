@@ -1,5 +1,6 @@
 .company {
   margin-bottom: 50px;
+
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -11,6 +12,12 @@
 }
 .compa-list {
   display: flex;
+  & li {
+    margin-right: 30px;
+  }
+  & li:nth-child(6) {
+    margin-right: 0;
+  }
 }
 .compani-items {
   display: flex;
@@ -20,12 +27,12 @@
   width: 106px;
   height: 60px;
 }
-.compa-list li {
-  margin-right: 30px;
-}
-.compa-list li:nth-child(6) {
-  margin-right: 0;
-}
+// .compa-list li {
+//   margin-right: 30px;
+// }
+// .compa-list li:nth-child(6) {
+//   margin-right: 0;
+// }
 .list .lead {
   display: block;
   width: 170px;
@@ -37,10 +44,16 @@
   padding: 16px 32px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    fill: #2196f3;
+    border-radius: 4px;
+    border-color: #2196f3;
+  }
 }
-.list .lead:hover,
-.list .lead:focus {
-  fill: #2196f3;
-  border-radius: 4px;
-  border-color: #2196f3;
-}
+// .list .lead:hover,
+// .list .lead:focus {
+//   fill: #2196f3;
+//   border-radius: 4px;
+//   border-color: #2196f3;
+// }

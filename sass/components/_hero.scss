@@ -12,38 +12,50 @@
       rgba(47, 48, 58, 0.4)
     ),
     url(../imge/Img-hero.jpg);
-}
-.hero-title {
-  margin-bottom: 40px;
+  &-title {
+    margin-bottom: 40px;
 
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1, 36;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1, 36;
 
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--second-header-color);
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--second-header-color);
+  }
 }
+// .hero-title {
+//   margin-bottom: 40px;
+
+//   font-weight: 900;
+//   font-size: 44px;
+//   line-height: 1, 36;
+
+//   text-align: center;
+//   letter-spacing: 0.06em;
+//   text-transform: uppercase;
+//   color: var(--second-header-color);
+// }
 .main-button {
+  display: flex;
   margin-left: auto;
   margin-right: auto;
   padding: 10px 32px;
-  border-radius: 4px;
   position: relative;
 
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1, 87;
-
-  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--second-header-color);
+  background-color: var(--accent-color);
+  border-radius: 4px;
   border: transparent;
 }
-.main-button {
-  background-color: var(--accent-color);
-}
+// .main-button {
+//   background-color: var(--accent-color);
+// }
