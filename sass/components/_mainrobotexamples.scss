@@ -12,17 +12,7 @@
     color: var(--primary-header-color);
   }
 }
-// .directions-title {
-//   margin-bottom: 50px;
-//   margin-top: 0;
 
-//   font-weight: 700;
-//   font-size: 36px;
-//   line-height: 1, 16;
-//   text-align: center;
-//   letter-spacing: 0.03em;
-//   color: var(--primary-header-color);
-// }
 .items-thumb {
   position: relative;
   &::before {
@@ -34,14 +24,7 @@
     background-color: rgba(47, 48, 58, 0.4);
   }
 }
-// .items-thumb::before {
-//   content: "";
-//   position: absolute;
-//   bottom: 0;
-//   width: 100%;
-//   height: 70px;
-//   background-color: rgba(47, 48, 58, 0.4);
-// }
+
 .items-cover-text {
   position: absolute;
   bottom: 25px;

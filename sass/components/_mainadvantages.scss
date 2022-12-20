@@ -9,20 +9,18 @@
 }
 
 .thumb {
-  display: flex;
+  @extend %flex-algin;
+
   padding: 25px 100px;
   margin-bottom: 30px;
 
   justify-content: center;
-  align-items: center;
   background-color: #f5f4fa;
   &-soc-icons {
     height: 70px;
   }
 }
-// .thumb-soc-icons {
-//   height: 70px;
-// }
+
 .advantages-title {
   margin-bottom: 10px;
 

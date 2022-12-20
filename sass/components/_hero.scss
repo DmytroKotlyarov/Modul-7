@@ -25,20 +25,9 @@
     color: var(--second-header-color);
   }
 }
-// .hero-title {
-//   margin-bottom: 40px;
 
-//   font-weight: 900;
-//   font-size: 44px;
-//   line-height: 1, 36;
-
-//   text-align: center;
-//   letter-spacing: 0.06em;
-//   text-transform: uppercase;
-//   color: var(--second-header-color);
-// }
 .main-button {
-  display: flex;
+  @extend %flex-algin;
   margin-left: auto;
   margin-right: auto;
   padding: 10px 32px;
@@ -48,7 +37,6 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 1, 87;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--second-header-color);
@@ -56,6 +44,3 @@
   border-radius: 4px;
   border: transparent;
 }
-// .main-button {
-//   background-color: var(--accent-color);
-// }
