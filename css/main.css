@@ -67,7 +67,7 @@ a {
   --advantages-color: #f5f4fa;
 }
 
-.btn-model-senden, .teams-soc-link, .teams-soc-list, .footer-button, .list-port, .team-soc-link, .team-soc-list, .thumb, .main-button, .akcent, .list .link, .header-dask, .navigation {
+.btn-model-senden, .teams-soc-link, .teams-soc-list, .footer-button, .list-port, .team-soc-link, .team-soc-list, .thumb, .main-button, .akcent, .contact .link, .header-dask, .navigation {
   display: flex;
   align-items: center;
 }
@@ -91,35 +91,35 @@ span.logo {
   color: #000000;
 }
 
-.navigation__list {
+.navigation__desc {
   display: flex;
   margin-left: 93px;
 }
-.navigation__list .navigation__headline + .navigation__headline {
+.navigation__desc .navigation__headline + .navigation__headline {
   margin-left: 50px;
 }
 
-.list {
+.contact {
   display: flex;
   margin-left: auto;
 }
-.list .items-subject + .items-subject {
+.contact .items-subject + .items-subject {
   margin-left: 30px;
 }
-.list .items-img + .items-img {
+.contact .items-img + .items-img {
   margin-left: 30px;
 }
-.list .items + .items {
+.contact .items + .items {
   margin-left: 30px;
 }
-.list-soc-icons {
+.contact-soc-icons {
   width: 16px;
   height: 12px;
 }
-.list-soc-icons {
+.contact-soc-icons {
   margin-right: 10px;
 }
-.list .link {
+.contact .link {
   padding: 10px 0;
   text-decoration: none;
   font-weight: 500;
@@ -129,7 +129,7 @@ span.logo {
   color: #757575;
   letter-spacing: 0.02em;
 }
-.list .link:hover, .list .link:focus {
+.contact .link:hover, .contact .link:focus {
   color: #2196f3;
   fill: #2196f3;
 }

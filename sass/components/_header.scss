@@ -25,7 +25,7 @@ span.logo {
   @extend %flex-algin;
 }
 
-.navigation__list {
+.navigation__desc {
   display: flex;
   margin-left: 93px;
   & .navigation__headline + .navigation__headline {
@@ -42,7 +42,7 @@ span.logo {
 //   letter-spacing: 0.02em;
 //   color: var(--primary-header-color);
 // }
-.list {
+.contact {
   display: flex;
   margin-left: auto;
   & .items-subject + .items-subject {
