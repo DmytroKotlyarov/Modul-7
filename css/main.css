@@ -67,7 +67,7 @@ a {
   --advantages-color: #f5f4fa;
 }
 
-.btn-model-senden, .teams-soc-link, .teams-soc-list, .footer-button, .list-port, .team-soc-link, .team-soc-list, .thumb, .main-button, .akcent, .contact .link, .header-dask, .navigation {
+.btn-model-senden, .teams-soc-link, .teams-soc-list, .footer-button, .list-port, .team-soc-link, .team-soc-list, .advantages__thumb, .hero-subject__btn, .akcent, .list .link, .header-dask, .navigation {
   display: flex;
   align-items: center;
 }
@@ -99,27 +99,36 @@ span.logo {
   margin-left: 50px;
 }
 
-.contact {
+.header-link {
+  display: block;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
+  color: var(--primary-header-color);
+}
+
+.list {
   display: flex;
   margin-left: auto;
 }
-.contact .items-subject + .items-subject {
+.list .advantages__items-subject + .advantages__items-subject {
   margin-left: 30px;
 }
-.contact .items-img + .items-img {
+.list .items-img + .items-img {
   margin-left: 30px;
 }
-.contact .items + .items {
+.list .items + .items {
   margin-left: 30px;
 }
-.contact-soc-icons {
+.list-soc-icons {
   width: 16px;
   height: 12px;
 }
-.contact-soc-icons {
+.list-soc-icons {
   margin-right: 10px;
 }
-.contact .link {
+.list .link {
   padding: 10px 0;
   text-decoration: none;
   font-weight: 500;
@@ -129,7 +138,7 @@ span.logo {
   color: #757575;
   letter-spacing: 0.02em;
 }
-.contact .link:hover, .contact .link:focus {
+.list .link:hover, .list .link:focus {
   color: #2196f3;
   fill: #2196f3;
 }
@@ -192,7 +201,8 @@ span.logo {
   background-position: center;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../imge/Img-hero.jpg);
 }
-.hero-title {
+
+.hero-subject__title {
   margin-bottom: 40px;
   font-weight: 900;
   font-size: 44px;
@@ -203,7 +213,7 @@ span.logo {
   color: var(--second-header-color);
 }
 
-.main-button {
+.hero-subject__btn {
   margin-left: auto;
   margin-right: auto;
   padding: 10px 32px;
@@ -225,22 +235,22 @@ span.logo {
   padding-bottom: 94px;
 }
 
-.items-subject {
+.advantages__items-subject {
   width: 270px;
   height: 246px;
 }
 
-.thumb {
+.advantages__thumb {
   padding: 25px 100px;
   margin-bottom: 30px;
   justify-content: center;
   background-color: #f5f4fa;
 }
-.thumb-soc-icons {
+.advantages__thumb-soc-icons {
   height: 70px;
 }
 
-.advantages-title {
+.advantages__title {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
@@ -250,7 +260,7 @@ span.logo {
   color: var(--primary-header-color);
 }
 
-.advantages-text {
+.advantages__text {
   margin-bottom: 0;
   font-weight: 400;
   font-size: 14px;

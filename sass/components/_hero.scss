@@ -12,21 +12,22 @@
       rgba(47, 48, 58, 0.4)
     ),
     url(../imge/Img-hero.jpg);
-  &-title {
-    margin-bottom: 40px;
-
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1, 36;
-
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: var(--second-header-color);
-  }
 }
 
-.main-button {
+.hero-subject__title {
+  margin-bottom: 40px;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1, 36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--second-header-color);
+}
+
+.hero-subject__btn {
   @extend %flex-algin;
   margin-left: auto;
   margin-right: auto;

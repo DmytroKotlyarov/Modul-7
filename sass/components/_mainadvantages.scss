@@ -3,12 +3,12 @@
   padding-bottom: 94px;
 }
 
-.items-subject {
+.advantages__items-subject {
   width: 270px;
   height: 246px;
 }
 
-.thumb {
+.advantages__thumb {
   @extend %flex-algin;
 
   padding: 25px 100px;
@@ -21,7 +21,7 @@
   }
 }
 
-.advantages-title {
+.advantages__title {
   margin-bottom: 10px;
 
   font-weight: 700;
@@ -32,7 +32,7 @@
   color: var(--primary-header-color);
 }
 
-.advantages-text {
+.advantages__text {
   margin-bottom: 0;
   font-weight: 400;
   font-size: 14px;
